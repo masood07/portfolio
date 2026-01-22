@@ -90,7 +90,12 @@ body {
     border: 1px solid #2B2B2B;
     color: #9C9C9C;
 }
-
+.contact-form input::placeholder,
+.contact-form textarea::placeholder
+{
+    color: white;
+    opacity: 0.5;
+}
 .contact-form input:focus,
 .contact-form textarea:focus {
     background-color: #1B1B1B;
