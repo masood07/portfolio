@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #1B1B1B;
+    padding: 0.75rem 0;
+}
+
+.navbar .navbar-nav .nav-item a,
+.social i {
+    color: #8C8C8C;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #2B2B2B;
+    border-color: #8C8C8C;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.cont {
+    background-color: #080808;
+}
+
+.btn-success {
+    background-color: #3F8E00;
+}
+
+#right {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#info {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#info h3 {
+    font-weight: bolder;
+}
+
+#info .btn {
+    padding: 10px 25px;
+}
+
+.test-card {
+    background-color: #1B1B1B;
+    border-radius: 10px;
+    border: 1px solid #2B2B2B;
+}
+
+.client-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.work-card img {
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #1B1B1B;
+    border: 1px solid #2B2B2B;
+    color: #9C9C9C;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #1B1B1B;
+    color: #9C9C9C;
+    border-color: #3F8E00;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    top: auto;
+    bottom: -60px;
+}
+
+.carousel-control-prev {
+    left: 40%;
+}
+
+.carousel-control-next {
+    right: 40%;
+}
+
+@media (max-width: 768px) {
+    #info {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    #right {
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .carousel-control-prev {
+        left: 35%;
+    }
+
+    .carousel-control-next {
+        right: 35%;
+    }
+}
+
+.work-items {
+    padding-bottom: 80px;
+}
